@@ -31,17 +31,6 @@ Semicolon
 Practical Decision Support
 ```
 
-You also use the Avandsoft website to publish technical and research-oriented articles, particularly around subjects such as:
-
-* decision theory
-* artificial intelligence
-* reinforcement learning
-* probabilistic decision-making
-* data-driven decision support
-* algorithmic decision-making
-
-The longer-term objective is to make your research useful outside an academic paper by turning it into an actual decision-support technology.
-
 ---
 
 ## 2. The relationship between Avandsoft, Semicolon, and Colon
@@ -126,8 +115,6 @@ Conceptually:
 }
 ```
 
-The actual input model represents the probabilistic characteristics of the alternatives rather than the complete human-readable scenario.
-
 The important constraint is:
 
 > **Every Colon decision request contains exactly two choices.**
@@ -168,13 +155,13 @@ It does not need to know the complete UI scenario, factor names, explanatory tex
 
 This is the research core of the ecosystem.
 
-Your research question is not simply:
+Our research question is not simply:
 
 > "Which choice has the highest predicted/expected value?"
 
-You are investigating whether **Expected Value maximization is always the best decision strategy in uncertain and probabilistic environments**, particularly when decisions are made over time and under competitive/uncertain conditions.
+We are investigating whether **Expected Value maximization is always the best decision strategy in uncertain and probabilistic environments**, particularly when decisions are made over time and under competitive/uncertain conditions.
 
-Your research compares OptiBRL against baseline approaches and, according to your research results, demonstrates better performance in probabilistic environments over time.
+Our research compares OptiBRL against baseline approaches and, according to our research results, demonstrates better performance in probabilistic environments over time.
 
 The intended progression is:
 
@@ -192,13 +179,13 @@ Decision theory / research
      Semicolon
 ```
 
-Your larger objective is to make the algorithm useful beyond the research paper—to expose it through an API and eventually use it to provide decision support to real users.
+Our  larger objective is to make the algorithm useful beyond the research paper—to expose it through an API and eventually use it to provide decision support to real users.
 
 ---
 
 ## 5. Investment
 
-This is the clarification you just made, and it is important.
+This is the clarification we just made, and it is important.
 
 **Investment is a feature/domain inside Semicolon.**
 
@@ -290,7 +277,7 @@ The domain rule is strict:
 
 Every choice must have a specification for **every factor used by the scenario**.
 
-You previously defined the factor specification such that:
+We previously defined the factor specification such that:
 
 * `Worst` is a decimal score
 * positive values represent beneficial impact
@@ -358,7 +345,7 @@ This means Semicolon is the **application and domain layer**, while Colon is the
 
 ## 9. Questionnaires are separate
 
-This was an important clarification you made.
+This was an important clarification we made.
 
 **Questionnaires are not part of the decision algorithm.**
 
@@ -451,7 +438,7 @@ OptiBRL
 Algorithmic decision-making
 ```
 
-I would therefore not describe Semicolon as "an LLM decision-making platform." Its core decision engine is based on your research algorithm through Colon.
+I would therefore not describe Semicolon as "an LLM decision-making platform." Its core decision engine is based on our research algorithm through Colon.
 
 ## 13. Investment decision support
 
@@ -466,7 +453,7 @@ The investment functionality concerns assets such as:
 
 The system can provide information and decision support around investment horizons.
 
-You have described functionality around decisions such as whether a user should:
+We have described functionality around decisions such as whether a user should:
 
 * keep
 * buy
@@ -567,7 +554,7 @@ This means Colon can become a reusable AI decision infrastructure product rather
 
 ## 17. Research publication strategy
 
-Your overall strategy has an interesting three-layer structure:
+Our overall strategy has an interesting three-layer structure:
 
 ### Layer 1 — Research
 
@@ -613,24 +600,13 @@ We also intend to publish articles about the research through Avandsoft and ulti
 
 Avandsoft is also being used as a publishing platform.
 
-Your content is intended to cover areas such as:
-
-* AI
-* reinforcement learning
-* decision theory
-* decision-making
-* data science
-* technical research
-* software engineering
-* practical applications of AI
-
-You have been designing the blog specifically with SEO in mind.
+We have been designing the blog specifically with SEO in mind.
 
 ---
 
 ## 19. Technical stack
 
-Your main technology stack is roughly:
+Our main technology stack is roughly:
 
 | Area               | Technology                            |
 | ------------------ | ------------------------------------- |
@@ -658,9 +634,9 @@ Your main technology stack is roughly:
 
 ## 20. Backend architecture
 
-You tend to use a relatively structured backend architecture rather than putting all logic directly in Razor Pages.
+We tend to use a relatively structured backend architecture rather than putting all logic directly in Razor Pages.
 
-You have worked with concepts such as:
+We have worked with concepts such as:
 
 * domain models
 * read models
@@ -680,7 +656,7 @@ This reflects a broader goal of keeping Semicolon as a serious backend applicati
 
 Semicolon has authentication functionality including external login.
 
-You have worked on:
+We have worked on:
 
 * Google authentication
 * Microsoft Identity
@@ -694,7 +670,7 @@ You have worked on:
 
 Semicolon uses **Bootstrap** heavily.
 
-Some of the UI work you have implemented or discussed includes:
+Some of the UI work we have implemented or discussed includes:
 
 * cards
 * modals
@@ -736,7 +712,7 @@ data             monitoring
  Email notification
 ```
 
-You have specifically worked with:
+We have specifically worked with:
 
 * Binance WebSocket
 * cryptocurrency price/history
@@ -749,7 +725,7 @@ You have specifically worked with:
 
 ## 24. Infrastructure
 
-You have experience deploying and operating the platform across several environments.
+We have experience deploying and operating the platform across several environments.
 
 You've worked with:
 
@@ -789,7 +765,7 @@ Colon
 
 ### GitHub Actions
 
-You have a CI/CD pipeline that builds .NET applications and Docker images and publishes images to:
+We have a CI/CD pipeline that builds .NET applications and Docker images and publishes images to:
 
 ```text
 ghcr.io
@@ -803,9 +779,9 @@ Colon is designed to be lightweight in terms of its API surface.
 
 The application loads the trained PyTorch model and exposes the decision endpoint through FastAPI.
 
-You have preferred a **singleton-style model loading strategy**, so the model isn't repeatedly loaded for every request.
+We have preferred a **singleton-style model loading strategy**, so the model isn't repeatedly loaded for every request.
 
-You have also considered:
+We have also considered:
 
 * Docker
 * FastAPI readiness probes
@@ -821,7 +797,7 @@ The project does not require a traditional database for the core Colon API.
 
 ## 26. Security and infrastructure work
 
-You have also worked on:
+We have also worked on:
 
 * environment variables
 * authentication
@@ -847,7 +823,7 @@ with resources such as:
 * SVG resources
 * third-party resources
 
-You have also worked on:
+We have also worked on:
 
 * canonical URLs
 * sitemap
@@ -863,9 +839,9 @@ The goal is not merely to make Semicolon technically functional but also discove
 
 ---
 
-## 28. Your core product philosophy
+## 28. Our core product philosophy
 
-The central idea I take from all of your descriptions is this:
+The central idea I take from all of our  descriptions is this:
 
 **Avandsoft is trying to turn research about better decision-making into usable technology.**
 
@@ -875,7 +851,7 @@ The progression is not:
 Prediction → highest number → recommendation
 ```
 
-Instead, your research is concerned with:
+Instead, our  research is concerned with:
 
 ```text
 Uncertainty
@@ -927,13 +903,13 @@ They are **not inherently part of the decision recommendation pipeline**.
 
 ### 3. OptiBRL ≠ simple EV maximization
 
-Your research is specifically motivated by the limitations of treating every uncertain decision as:
+Our research is specifically motivated by the limitations of treating every uncertain decision as:
 
 $$
 a^* = \arg\max_a E[V(a)]
 $$
 
-You are investigating reinforcement-learning-based decision strategies that can perform differently in probabilistic environments over time.
+We are investigating reinforcement-learning-based decision strategies that can perform differently in probabilistic environments over time.
 
 That research is implemented in Colon and made useful through Semicolon.
 
