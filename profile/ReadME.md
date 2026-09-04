@@ -1,6 +1,6 @@
 # Avandsoft
 
-AvndSoft is a software company that includes several projects in the field of **decision-making**. Avandsoft is building a **research-driven AI ecosystem** for decision-making. Its general technical direction is:
+AvandSoft is a software company that includes several projects in the field of **decision-making**. Avandsoft is building a **research-driven AI ecosystem** for decision-making. Its general technical direction is:
 
 1. Artificial intelligence and machine learning
 2. Automated decision support
@@ -168,44 +168,6 @@ Some of the UI work we have implemented or discussed includes:
 ## Our core product philosophy
 
 Avandsoft is trying to turn research about better decision-making into usable technology. The progression is not simply prediction leading to the highest number and then a recommendation. Instead, the research is concerned with uncertainty, probability, decision-making, learning, and environment, all coming together to produce a better decision strategy. **OptiBRL** represents the research layer. **Colon** represents the reusable computational and API layer. **Semicolon** represents the user-facing application layer.
-
-## Overall ecosystem
-
-Putting everything together:
-
-```text
-                           AVANDSOFT
-                    Technology + Research
-                              │
-            ┌─────────────────┴──────────────────┐
-            │                                    │
-        Research                              Products
-            │                                    │
-        OptiBRL                             SEMICOLON
-            │                                    │
-            ▼                    ┌───────────────┼────────────────┐
-            |                    │               │                │
-            │              Questionnaires   Decision Scenarios  Investment
-            │                    │               │                │
-            |                    │               │          ┌─────┴─────┐
-            │                    │               │          │           │
-            |                    ▼               ▼       Crypto     Commodities
-            |                 Reports            │          │           │
-            │                                    │          └─────┬─────┘
-            │                                    │                │
-            │                                    └────────► Structured
-            │                                              market data
-            │                                                     │
-            |                                                     ▼
-            └─────────────────────────────────────────────────────┘
-                                         │
-                                         |
-                                         │
-                                         |
-                                         │
-                                         ▼
-                                  Advice / Action
-```
 
 ## In one sentence
 
